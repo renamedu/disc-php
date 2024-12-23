@@ -1,0 +1,14 @@
+{
+    "name": "user/disc-php",
+    "description": "none",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "User\\DiscPhp\\": "src/"
+        }
+    },
+    "require": {
+        "team-reflex/discord-php": "^7.3",
+        "google/apiclient": "^2.18"
+    }
+}
